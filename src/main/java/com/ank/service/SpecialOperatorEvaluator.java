@@ -40,8 +40,6 @@ public class SpecialOperatorEvaluator {
             String a = null, b = null;
             if (op.getOperandCount() == 1) {
                 a = historyDeque.remove();
-
-                historyDeque.add(a);
             } else if (op.getOperandCount() == 2) {
                 b = historyDeque.remove();
                 a = historyDeque.remove();
