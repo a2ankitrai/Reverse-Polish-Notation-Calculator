@@ -1,4 +1,4 @@
-# Airwallex Calculator
+# Reverse Polish Notation Calculator
 
 Command line based RPN calculator.
 
